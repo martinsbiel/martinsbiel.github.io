@@ -1,19 +1,7 @@
 body {
     background-color: #15458f;
 }
-/*
-.container {
-    border: 1px solid red;
-}
 
-.row {
-    border: 1px solid green;
-}
-
-.feed {
-    border: 1px solid white;
-}
-*/
 .default-bg {
     background-color: #2a518c;
     padding-bottom: 15px;
@@ -37,6 +25,10 @@ body {
     animation-name: socials;
     animation-duration: 0.5s;
     animation-direction: alternate;
+}
+
+.about {
+    text-align: justify;
 }
 
 @keyframes socials {
