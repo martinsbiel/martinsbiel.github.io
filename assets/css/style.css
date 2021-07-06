@@ -1,0 +1,50 @@
+body {
+    background-color: #15458f;
+}
+/*
+.container {
+    border: 1px solid red;
+}
+
+.row {
+    border: 1px solid green;
+}
+
+.feed {
+    border: 1px solid white;
+}
+*/
+.default-bg {
+    background-color: #2a518c;
+    padding-bottom: 15px;
+}
+
+.header-text {
+    color: #a3c4f7;
+}
+
+.link-about {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.link-about:hover {
+    color: white;
+    text-decoration: underline;
+    animation-name: socials;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+}
+
+@keyframes socials {
+    from {
+        margin-left: 0;
+    }
+
+    to {
+        margin-left: 20px;
+    }
+}
